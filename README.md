@@ -1,6 +1,6 @@
 # 2Dots Hires Website
 
-**2Dots Hires** is a hiring website for a fictional, logistics and delivery company, 2Dots, built for learning HTML and frontend practices. It demonstrates forms, tables, semantic tags, and multi-page navigation in a realistic website layout.
+**2Dots Hires** is a hiring website for a fictional logistics & delivery company 2Dots, built for learning HTML and frontend practices. It demonstrates forms, tables, semantic tags, and multi-page navigation in a realistic website layout.
 
 ## 📁 Project Structure
 
