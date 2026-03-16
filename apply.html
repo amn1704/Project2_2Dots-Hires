@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images/2Dotsfavicon.ico">
+    <title>Apply - 2Dots</title>
+</head>
+<body>
+    <header>
+        <img src="Images/favicon.svg" height="30">
+        <h1>2Dots Hires</h1>
+        <hr>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="knowus.html">Know Us</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="apply.html">Apply</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2>Apply for a Position at 2Dots</h2>
+            <p>Interested in joining 2Dots? </p>
+            <p>Fill out the application form below and provide your details. Our hiring team will review your application and contact you if your profile matches our requirements.</p>
+        </section>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label for="fname">First Name: </label>
+                    <input type="text" id="fname" name="fname" required>
+                    <label for="sname">Second Name: </label>
+                    <input type="text" id="sname" name="sname" required>
+                    <br>
+                    <label for="dob">Date of Birth: </label>
+                    <input type="date" id="dob" required>
+                    <br>
+                    <label>Gender: </label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                    <br>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="phno">Phone Number: </label>
+                    <input type="tel" id="phno" name="phno" required>
+                    <br>
+                    <label for="add1">Address Line 1: </label>
+                    <input type="text" id="add1" name="add1" required>
+                    <label for="add2">Address Line 2: </label>
+                    <input type="text" id="add2" name="add2">
+                    <label for="pincode">Pin Code: </label>
+                    <input type="text" id="pincode" name="pincode" required>
+                    <br>
+                    <label for="city">City: </label>
+                    <input type="text" id="city" name="city" required>
+                    <label for="state">State: </label>
+                    <select id="state" name="state" required>
+                        <option value="">Select</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                <label for="country">Country: </label>
+                <select id="country" name="country" required>
+                    <option value="">Select</option>
+                    <option value="India">India</option>
+                </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Job Information</legend>
+                    <label for="pos">Applying For: </label>
+                    <select id="pos" name="pos" required>
+                        <option value="">Select</option>
+                        <option value="Delivery Associate">Delivery Associate</option>
+                        <option value="Software Engineer">Software Engineer</option>
+                        <option value="Logistics Coordinator">Logistics Coordinator</option>
+                        <option value="Operations Manager">Operations Manager</option>
+                        <option value="Customer Support Executive">Customer Support Executive</option>
+                    </select>
+                    <br>
+                    <lable for="jobloc">Preferred Job Location: </lable>
+                    <select id="jobloc" name="jobloc" required>
+                        <option value="">Select</option>
+                        <option value="Remote">Remote</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Skills Section</legend>
+                    <label>Select Skills: </label>
+                    <br>
+                    <input type="checkbox" id="Communication Skills" name="skills" value="Communication Skills">
+                    <label for="Communication Skills">Communication Skills</label>
+                    <input type="checkbox" id="Problem Solving" name="skills" value="Problem Solving">
+                    <label for="Problem Solving">Problem Solving</label>
+                    <input type="checkbox" id="Time Management" name="skills" value="Time Management">
+                    <label for="Time Management">Time Management</label>
+                    <input type="checkbox" id="English Proficiency" name="skills" value="Time Management">
+                    <label for="English Proficiency">English Proficiency</label>
+                    <br>
+                    <input type="checkbox" id="Customer Handling" name="skills" value="Customer Handling">
+                    <label for="Customer Handling">Customer Handling</label>
+                    <input type="checkbox" id="Programming" name="skills" value="Programming">
+                    <label for="Programming">Programming</label>
+                    <input type="checkbox" id="Logistics Planning" name="skills" value="Logistics Planning">
+                    <label for="Logistics Planning">Logistics Planning</label>    
+                    <input type="checkbox" id="Teamwork" name="skills" value="Logistics Planning">
+                    <label for="Teamwork">Teamwork</label>                
+                </fieldset>
+                <fieldset>
+                    <legend>Experience Section</legend>
+                    <label for="yoe">Years of Experience(in years): </label>
+                    <input type="number" id="yoe" name="yoe" required>
+                    <br>
+                    <label for="cc">Current Company: </label>
+                    <input type="text" id="cc" name="cc">
+                    <br>
+                    <label for="cr">Current Role: </label>
+                    <input type="text" id="cr" name="cr">
+                    <br>
+                    <label for="expsalary">Expected Salary(in Rs.): </label>
+                    <input type="number" id="expsalary" name="expsalary" required>
+                    <br>
+                    <label for="avljoindate">Available Joining Date: </label>
+                    <input type="date" id="avljoindate" name="avljoindate" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Resume Upload</legend>
+                    <label for="resume">Upload Resume: </label>
+                    <input type="file" id="resume" name="resume" required>
+                    <br>
+                    <label for="coverletter">Upload Cover Letter(optional): </label>
+                    <input type="file" id="coverletter" name="coverletter">
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <label for="why">Why do you want to join 2Dots? </label>
+                    <br>
+                    <textarea id="why" name="why" rows="5" cols="100" placeholder="Tell us about your motivation and what you hope to contribute..." required></textarea>
+                </fieldset>
+                <input type="checkbox" id="check" name="check" value="yes" required>
+                <label for="check">I hereby certify that the information provided is true, accurate, and complete to the best of my knowledge.</label>
+                <br>
+                <button type="reset">Reset Form</button>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <h2>Application Process</h2>
+            <table>
+                <caption><b>2Dots Hiring Process</b></caption>
+                <thead>
+                    <tr>
+                        <th>Stage</th>
+                        <th>Description</th>
+                        <th>Mode</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Application Review</td>
+                        <td>HR reviews submitted application</td>
+                        <td>Online</td>
+                        <td>2-3 Days</td>
+                    </tr>
+                    <tr>
+                        <td>Initial Screening</td>
+                        <td>Basic candidate discussion</td>
+                        <td>Video Call</td>
+                        <td>30 Minutes</td>
+                    </tr>
+                    <tr>
+                        <td>Technical / Skill Assessment</td>
+                        <td>Role-specific evaluation</td>
+                        <td>Online Test</td>
+                        <td>1 Hour</td>
+                    </tr>
+                    <tr>
+                        <td>Final Interview</td>
+                        <td>Interaction with hiring manager</td>
+                        <td>Virtual / Office</td>
+                        <td>45 Minutes</td>
+                    </tr>
+                    <tr>
+                        <td>Offer & Onboarding</td>
+                        <td>Selected candidates receive offer</td>
+                        <td>Email</td>
+                        <td>3-5 Days</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div>
+            <h3>Company Description</h3>
+            <p>2Dots is a logistics and delivery platform dedicated to connecting people and businesses by transporting goods quickly, safely, and efficiently between locations. Our mission is to simplify deliveries and ensure reliability at every step.</p>
+        </div>
+        <div>
+            <h3>Contact Us</h3>
+            <div>Email: 2dots4321@gmail.com</div>
+            <div>Phone: +91 7778889990</div>
+            <div>Address: 874/Near xyz school,xyz,xyz-282848</div>
+        </div>
+        <div>
+            <h3>Follow Us</h3>
+            <span><a href="#">LinkedIn</a></span>
+            <span><a href="#">X</a></span>
+            <span><a href="#">Instagram</a></span>
+        </div>
+        <div><p><small>© 2026 2Dots. All rights reserved.</small></p></div>
+    </footer>
+</body>
+</html>
